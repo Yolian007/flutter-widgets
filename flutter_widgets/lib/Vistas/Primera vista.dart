@@ -14,7 +14,7 @@ class PrimeraVista extends StatelessWidget {
         padding: const EdgeInsets.all(24.0),
         child: WidgetStateless(
           nombre: "Linder Yolian Rodriguez Cortes",
-          correo: "lirodirguezco@unal.edu.co",
+          correo: "lirodriguezco@unal.edu.co",
           edad: "25",
         ),
       ),

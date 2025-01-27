@@ -101,6 +101,14 @@ class _SegundaVistaState extends State<SegundaVista> {
                   onPressed: _showConfigurationModal,
                   child: const Text("Configurar Imagen"),
                 ),
+                const SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: () {
+                    // Navegar a la Primera Vista
+                    Navigator.pushNamed(context, '/primera');
+                  },
+                  child: const Text("Widget Stateless"),
+                ),
               ],
             ),
           ),
